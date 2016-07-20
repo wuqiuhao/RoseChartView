@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFF2E4A61D3F2B3800F87BCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF2E4A51D3F2B3800F87BCF /* AppDelegate.swift */; };
+		EFF2E4AD1D3F2B3800F87BCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF2E4AC1D3F2B3800F87BCF /* Assets.xcassets */; };
+		EFF2E4B01D3F2B3800F87BCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF2E4AE1D3F2B3800F87BCF /* LaunchScreen.storyboard */; };
+		EFF2E4B81D3F2BC300F87BCF /* RoseChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF2E4B71D3F2BC300F87BCF /* RoseChartView.swift */; };
+		EFF2E4BA1D3F2BED00F87BCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF2E4B91D3F2BED00F87BCF /* ViewController.swift */; };
+		EFF2E4BD1D3F2D3D00F87BCF /* Rose.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF2E4BB1D3F2D3D00F87BCF /* Rose.storyboard */; };
+		EFF2E4BF1D3F4AA400F87BCF /* composer_open.wav in Resources */ = {isa = PBXBuildFile; fileRef = EFF2E4BE1D3F4AA400F87BCF /* composer_open.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EFF2E4A21D3F2B3800F87BCF /* RoseChatView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoseChatView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF2E4A51D3F2B3800F87BCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFF2E4AC1D3F2B3800F87BCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFF2E4AF1D3F2B3800F87BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFF2E4B11D3F2B3800F87BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFF2E4B71D3F2BC300F87BCF /* RoseChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoseChartView.swift; sourceTree = "<group>"; };
+		EFF2E4B91D3F2BED00F87BCF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFF2E4BC1D3F2D3D00F87BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Rose.storyboard; sourceTree = "<group>"; };
+		EFF2E4BE1D3F4AA400F87BCF /* composer_open.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = composer_open.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFF2E49F1D3F2B3800F87BCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFF2E4991D3F2B3800F87BCF = {
+			isa = PBXGroup;
+			children = (
+				EFF2E4A41D3F2B3800F87BCF /* RoseChatView */,
+				EFF2E4A31D3F2B3800F87BCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFF2E4A31D3F2B3800F87BCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFF2E4A21D3F2B3800F87BCF /* RoseChatView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFF2E4A41D3F2B3800F87BCF /* RoseChatView */ = {
+			isa = PBXGroup;
+			children = (
+				EFF2E4BE1D3F4AA400F87BCF /* composer_open.wav */,
+				EFF2E4BB1D3F2D3D00F87BCF /* Rose.storyboard */,
+				EFF2E4B71D3F2BC300F87BCF /* RoseChartView.swift */,
+				EFF2E4B91D3F2BED00F87BCF /* ViewController.swift */,
+				EFF2E4A51D3F2B3800F87BCF /* AppDelegate.swift */,
+				EFF2E4AC1D3F2B3800F87BCF /* Assets.xcassets */,
+				EFF2E4AE1D3F2B3800F87BCF /* LaunchScreen.storyboard */,
+				EFF2E4B11D3F2B3800F87BCF /* Info.plist */,
+			);
+			path = RoseChatView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFF2E4A11D3F2B3800F87BCF /* RoseChatView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF2E4B41D3F2B3800F87BCF /* Build configuration list for PBXNativeTarget "RoseChatView" */;
+			buildPhases = (
+				EFF2E49E1D3F2B3800F87BCF /* Sources */,
+				EFF2E49F1D3F2B3800F87BCF /* Frameworks */,
+				EFF2E4A01D3F2B3800F87BCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoseChatView;
+			productName = RoseChatView;
+			productReference = EFF2E4A21D3F2B3800F87BCF /* RoseChatView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFF2E49A1D3F2B3800F87BCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Hale;
+				TargetAttributes = {
+					EFF2E4A11D3F2B3800F87BCF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EFF2E49D1D3F2B3800F87BCF /* Build configuration list for PBXProject "RoseChatView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFF2E4991D3F2B3800F87BCF;
+			productRefGroup = EFF2E4A31D3F2B3800F87BCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFF2E4A11D3F2B3800F87BCF /* RoseChatView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFF2E4A01D3F2B3800F87BCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF2E4BD1D3F2D3D00F87BCF /* Rose.storyboard in Resources */,
+				EFF2E4B01D3F2B3800F87BCF /* LaunchScreen.storyboard in Resources */,
+				EFF2E4BF1D3F4AA400F87BCF /* composer_open.wav in Resources */,
+				EFF2E4AD1D3F2B3800F87BCF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFF2E49E1D3F2B3800F87BCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF2E4BA1D3F2BED00F87BCF /* ViewController.swift in Sources */,
+				EFF2E4B81D3F2BC300F87BCF /* RoseChartView.swift in Sources */,
+				EFF2E4A61D3F2B3800F87BCF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFF2E4AE1D3F2B3800F87BCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFF2E4AF1D3F2B3800F87BCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EFF2E4BB1D3F2D3D00F87BCF /* Rose.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFF2E4BC1D3F2D3D00F87BCF /* Base */,
+			);
+			name = Rose.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFF2E4B21D3F2B3800F87BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFF2E4B31D3F2B3800F87BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFF2E4B51D3F2B3800F87BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoseChatView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.design.RoseChatView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFF2E4B61D3F2B3800F87BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoseChatView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.design.RoseChatView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFF2E49D1D3F2B3800F87BCF /* Build configuration list for PBXProject "RoseChatView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF2E4B21D3F2B3800F87BCF /* Debug */,
+				EFF2E4B31D3F2B3800F87BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFF2E4B41D3F2B3800F87BCF /* Build configuration list for PBXNativeTarget "RoseChatView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF2E4B51D3F2B3800F87BCF /* Debug */,
+				EFF2E4B61D3F2B3800F87BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFF2E49A1D3F2B3800F87BCF /* Project object */;
+}
